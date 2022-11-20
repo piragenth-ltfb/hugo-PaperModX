@@ -1,3 +1,5 @@
+{{ template "_internal/disqus.html" . }}
+
 {{/* get pages from the current page's section */}}
 {{- $sections := site.Params.mainSections }}
 {{- if .Section }}
