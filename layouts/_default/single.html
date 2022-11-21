@@ -43,6 +43,7 @@
     {{- else }}{{ .Content }}{{ end }}
   </div>
   {{- end }}
+{{ partial "comments.html" .}}
 
   <footer class="post-footer">
     {{- if (.Param "socialLinks") }}
